@@ -1,11 +1,13 @@
-Database connection explain;
+<h1>Database connection explain;</h1>
 ---------------------------------------
-lmz/Conf/config.php
+<h2>lmz/Conf/config.php</h2>
 --------------------------------
-'DB_TYPE' => 'mysql',
-'DB_HOST' => '127.0.0.1',
-'DB_NAME' => 'ht_cn',
-'DB_USER' => 'root',
-'DB_PWD' => '123456',
-'DB_PORT' => '3306',
-'DB_PREFIX' => 'dede_',
+<ul>
+	<LI>'DB_TYPE' => 'mysql',</LI>
+	<LI>'DB_HOST' => '127.0.0.1',</LI>
+	<LI>'DB_NAME' => 'ht_cn',</LI>
+	<LI>'DB_USER' => 'root',</LI>
+	<LI>'DB_PWD' => '123456',</LI>
+	<LI>'DB_PORT' => '3306',</LI>
+	<LI>'DB_PREFIX' => 'dede_',</LI>
+</ul>
