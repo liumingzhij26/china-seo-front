@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>C:\wamp\www\ht.lmz.com/lmz/Tpl_HT/H/index.php

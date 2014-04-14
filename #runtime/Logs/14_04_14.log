@@ -1,0 +1,1291 @@
+[ 2014-04-14T15:57:11+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030002s ]
+
+[ 2014-04-14T16:00:24+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.0238156255800277
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.063004s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.020002s ]
+
+[ 2014-04-14T16:00:25+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.9136167874094099
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:00:37+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.06209148187190294
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:00:38+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.2705416704993695
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:01:12+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=73&rand=0.8103697341866791
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 73 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:01:21+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.9786185941193253
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.005000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:01:21+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.799883040599525
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:01:25+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.2694228603504598
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:01:25+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.12817073799669743
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:05:48+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.3899806330446154
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.002000s ]
+
+[ 2014-04-14T16:05:48+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.09563477779738605
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.002000s ]
+
+[ 2014-04-14T16:06:10+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.09169491706416011
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.003000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.003000s ]
+
+[ 2014-04-14T16:06:11+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.5195670623797923
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.000000s ]
+
+[ 2014-04-14T16:06:23+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.29412497649900615
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.026002s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:06:23+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.11956471647135913
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:06:25+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=48&rand=0.9068857848178595
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 48 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:06:26+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=152&rand=0.41102568805217743
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 152 and ranks = 3 )  [ RunTime:0.002000s ]
+
+[ 2014-04-14T16:06:29+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=3&rand=0.04399075638502836
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 3 and ranks = 3 )  [ RunTime:0.000000s ]
+
+[ 2014-04-14T16:25:42+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.08112573763355613
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:25:43+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.1532100539188832
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:33:43+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.04567577503621578
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.002000s ]
+
+[ 2014-04-14T16:33:43+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.8217773216310889
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.002000s ]
+
+[ 2014-04-14T16:33:45+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=73&rand=0.5222886989358813
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 73 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:34:34+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.6719259014353156
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.003000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.002000s ]
+
+[ 2014-04-14T16:34:35+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.968929338734597
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:35:59+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.4955535214394331
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001001s ]
+
+[ 2014-04-14T16:35:59+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.6906194358598441
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.010000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:36:19+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.541504125809297
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.030002s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:36:20+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.9065468998160213
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:36:26+08:00 ] 127.0.0.1 /city/getcity/cityname/Phuket?rand=0.06488483096472919
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`id`,`typedir` FROM `dede_arctype` WHERE ( typedir = 'Phuket' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+                a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+                a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+                dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid in (32371) order by a2.pubdate desc limit 10 [ RunTime:0.184010s ]
+
+[ 2014-04-14T16:36:27+08:00 ] 127.0.0.1 /city/getcity/cityname/Samui?rand=0.7080051968805492
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`id`,`typedir` FROM `dede_arctype` WHERE ( typedir = 'Samui' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+                a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+                a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+                dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid in (32370) order by a2.pubdate desc limit 10 [ RunTime:0.216012s ]
+
+[ 2014-04-14T16:36:28+08:00 ] 127.0.0.1 /city/getcity/cityname/Pattaya?rand=0.8751477370969951
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`id`,`typedir` FROM `dede_arctype` WHERE ( typedir = 'Pattaya' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+                a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+                a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+                dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid in (32397) order by a2.pubdate desc limit 10 [ RunTime:0.210012s ]
+
+[ 2014-04-14T16:36:29+08:00 ] 127.0.0.1 /city/getcity/cityname/Chiang-Mai?rand=0.483326563378796
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`id`,`typedir` FROM `dede_arctype` WHERE ( typedir = 'Chiang-Mai' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+                a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+                a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+                dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid in (32374) order by a2.pubdate desc limit 10 [ RunTime:0.085004s ]
+
+[ 2014-04-14T16:36:38+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) [ RunTime:0.050003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) order by a2.id desc limit 0,10 [ RunTime:0.080004s ]
+
+[ 2014-04-14T16:37:17+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=73&rand=0.8246694784611464
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 73 and ranks = 3 )  [ RunTime:0.000000s ]
+
+[ 2014-04-14T16:38:07+08:00 ] 127.0.0.1 /city/getCityPage/typeid-32368-page-37-order-recommend
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006001s ]
+SQL: select count(*) count from dede_addonarticle a1 left join
+	 			dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.title is not null [ RunTime:0.048003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+	 			a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+	 			a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+	 			dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.title is not null order by a2.id desc limit 360,10 [ RunTime:0.085005s ]
+
+[ 2014-04-14T16:38:13+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) [ RunTime:0.050003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) order by a2.id desc limit 350,10 [ RunTime:0.056003s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\ht.lmz.com\lmz\Lib\Action\ToolAction.class.php 第 40 行.
+
+[ 2014-04-14T16:38:16+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) [ RunTime:0.049003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) order by a2.id desc limit 340,10 [ RunTime:0.056003s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\ht.lmz.com\lmz\Lib\Action\ToolAction.class.php 第 40 行.
+
+[ 2014-04-14T16:38:18+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) [ RunTime:0.049003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) order by a2.id desc limit 350,10 [ RunTime:0.063003s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\ht.lmz.com\lmz\Lib\Action\ToolAction.class.php 第 40 行.
+
+[ 2014-04-14T16:38:27+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) [ RunTime:0.051003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) order by a2.id desc limit 360,10 [ RunTime:0.054003s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\ht.lmz.com\lmz\Lib\Action\ToolAction.class.php 第 40 行.
+
+[ 2014-04-14T16:39:19+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) [ RunTime:0.050003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) order by a2.id desc limit 350,10 [ RunTime:0.054003s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\ht.lmz.com\lmz\Lib\Action\ToolAction.class.php 第 40 行.
+
+[ 2014-04-14T16:39:22+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.019001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) [ RunTime:0.048003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) order by a2.id desc limit 0,10 [ RunTime:0.054003s ]
+
+[ 2014-04-14T16:39:26+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) [ RunTime:0.049003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) order by a2.id desc limit 360,10 [ RunTime:0.054003s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\ht.lmz.com\lmz\Lib\Action\ToolAction.class.php 第 40 行.
+
+[ 2014-04-14T16:39:29+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) [ RunTime:0.049003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%49654%' ) order by a2.id desc limit 0,10 [ RunTime:0.058003s ]
+
+[ 2014-04-14T16:39:32+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.009000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' ) [ RunTime:0.053003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' ) order by a2.id desc limit 0,10 [ RunTime:0.065004s ]
+
+[ 2014-04-14T16:39:33+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.008001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) [ RunTime:0.053003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) order by a2.id desc limit 0,10 [ RunTime:0.087005s ]
+
+[ 2014-04-14T16:39:35+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539351%' ) [ RunTime:0.054003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539351%' ) order by a2.id desc limit 0,10 [ RunTime:0.066004s ]
+
+[ 2014-04-14T16:39:37+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) [ RunTime:0.050003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) order by a2.id desc limit 0,10 [ RunTime:0.084005s ]
+
+[ 2014-04-14T16:39:38+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.010000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539341%' ) [ RunTime:0.054004s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539341%' ) order by a2.id desc limit 0,10 [ RunTime:0.067003s ]
+
+[ 2014-04-14T16:39:39+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) [ RunTime:0.057003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) order by a2.id desc limit 0,10 [ RunTime:0.056004s ]
+
+[ 2014-04-14T16:39:40+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539381%' ) [ RunTime:0.050003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539381%' ) order by a2.id desc limit 0,10 [ RunTime:0.063003s ]
+
+[ 2014-04-14T16:39:41+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) [ RunTime:0.051003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) order by a2.id desc limit 0,10 [ RunTime:0.061004s ]
+
+[ 2014-04-14T16:39:42+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) [ RunTime:0.051003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) order by a2.id desc limit 0,10 [ RunTime:0.062003s ]
+
+[ 2014-04-14T16:39:43+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) [ RunTime:0.049003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) order by a2.id desc limit 0,10 [ RunTime:0.056003s ]
+
+[ 2014-04-14T16:39:45+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539321%' ) [ RunTime:0.054003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539321%' ) order by a2.id desc limit 0,10 [ RunTime:0.069004s ]
+
+[ 2014-04-14T16:39:46+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) [ RunTime:0.050003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) order by a2.id desc limit 0,10 [ RunTime:0.064004s ]
+
+[ 2014-04-14T16:39:47+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539331%' ) [ RunTime:0.053003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539331%' ) order by a2.id desc limit 0,10 [ RunTime:0.061004s ]
+
+[ 2014-04-14T16:39:48+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) [ RunTime:0.051003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' ) order by a2.id desc limit 0,10 [ RunTime:0.068004s ]
+
+[ 2014-04-14T16:39:49+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) [ RunTime:0.050003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) order by a2.id desc limit 0,10 [ RunTime:0.063003s ]
+
+[ 2014-04-14T16:39:52+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) [ RunTime:0.054003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) order by a2.id desc limit 340,10 [ RunTime:0.096005s ]
+
+[ 2014-04-14T16:39:57+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.031002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033002s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) [ RunTime:0.050003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) order by a2.id desc limit 330,10 [ RunTime:0.075004s ]
+
+[ 2014-04-14T16:40:00+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) [ RunTime:0.057003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%5539311%' ) order by a2.id desc limit 340,10 [ RunTime:0.073004s ]
+
+[ 2014-04-14T16:40:03+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' or a2.poi like '%5539311%' ) [ RunTime:0.052003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' or a2.poi like '%5539311%' ) order by a2.id desc limit 0,10 [ RunTime:0.068004s ]
+
+[ 2014-04-14T16:40:05+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.012001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' or a2.poi like '%5539311%' ) [ RunTime:0.052003s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' or a2.poi like '%5539311%' ) order by a2.id desc limit 0,10 [ RunTime:0.063003s ]
+
+[ 2014-04-14T16:40:09+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' or a2.poi like '%5539311%' ) [ RunTime:0.054004s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' or a2.poi like '%5539311%' ) order by a2.id desc limit 340,10 [ RunTime:0.079004s ]
+
+[ 2014-04-14T16:40:10+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.010001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' or a2.poi like '%5539311%' ) [ RunTime:0.058004s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 32368 and a2.typeid = 32368     and ( a2.poi like '%35211%' or a2.poi like '%49654%' or a2.poi like '%5539311%' ) order by a2.id desc limit 330,10 [ RunTime:0.075004s ]
+
+[ 2014-04-14T16:41:47+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.9542946140281856
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:41:47+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.4032926245126873
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.022001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001001s ]
+
+[ 2014-04-14T16:41:49+08:00 ] 127.0.0.1 /city/getcity/cityname/Phuket?rand=0.0665745371952653
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`id`,`typedir` FROM `dede_arctype` WHERE ( typedir = 'Phuket' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:41:51+08:00 ] 127.0.0.1 /city/getcity/cityname/Samui?rand=0.3163225695025176
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`id`,`typedir` FROM `dede_arctype` WHERE ( typedir = 'Samui' ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2014-04-14T16:41:52+08:00 ] 127.0.0.1 /city/getcity/cityname/Pattaya?rand=0.7997819583397359
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`id`,`typedir` FROM `dede_arctype` WHERE ( typedir = 'Pattaya' ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2014-04-14T16:41:52+08:00 ] 127.0.0.1 /city/getcity/cityname/Chiang-Mai?rand=0.3328372621908784
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`id`,`typedir` FROM `dede_arctype` WHERE ( typedir = 'Chiang-Mai' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:41:55+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.9964065130334347
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.002000s ]
+
+[ 2014-04-14T16:41:56+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.5500923751387745
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.012001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.002000s ]
+
+[ 2014-04-14T16:41:58+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.11194559605792165
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.016001s ]
+
+[ 2014-04-14T16:41:58+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.6187711302191019
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:42:02+08:00 ] 127.0.0.1 /city/getCityPage/typeid-26620-page-1-order-prices
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+SQL: select count(*) count from dede_addonarticle a1 left join
+	 			dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.title is not null [ RunTime:0.066004s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+	 			a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+	 			a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+	 			dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.title is not null order by a1.price asc limit 0,10 [ RunTime:0.028001s ]
+
+[ 2014-04-14T16:42:04+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620      [ RunTime:0.029002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620      order by a2.title asc limit 0,10 [ RunTime:0.028001s ]
+
+[ 2014-04-14T16:42:05+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620      [ RunTime:0.028001s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620      order by a1.price asc limit 0,10 [ RunTime:0.005001s ]
+
+[ 2014-04-14T16:42:06+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' ) [ RunTime:0.026002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' ) order by a1.price asc limit 0,10 [ RunTime:0.030001s ]
+
+[ 2014-04-14T16:42:09+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.008000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' ) [ RunTime:0.029002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' ) order by a1.price asc limit 0,10 [ RunTime:0.030002s ]
+
+[ 2014-04-14T16:42:13+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.022001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497241%' ) [ RunTime:0.028002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497241%' ) order by a1.price asc limit 0,10 [ RunTime:0.028001s ]
+
+[ 2014-04-14T16:42:16+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497241%' ) [ RunTime:0.030001s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497241%' ) order by a1.price asc limit 10,10 [ RunTime:0.036002s ]
+
+[ 2014-04-14T16:42:18+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497241%' ) [ RunTime:0.034002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497241%' ) order by a1.price asc limit 0,10 [ RunTime:0.034002s ]
+
+[ 2014-04-14T16:42:20+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.034002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) order by a1.price asc limit 0,10 [ RunTime:0.007001s ]
+
+[ 2014-04-14T16:42:23+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.025001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.008000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.032002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) order by a1.price asc limit 210,10 [ RunTime:0.037002s ]
+
+[ 2014-04-14T16:42:25+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.046002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) order by a1.price asc limit 200,10 [ RunTime:0.036002s ]
+
+[ 2014-04-14T16:42:28+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.031002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) order by a2.title asc limit 0,10 [ RunTime:0.030002s ]
+
+[ 2014-04-14T16:42:29+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620   and ( a1.facilitys like '%OTA_P_903%' )  and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.043003s ]
+
+[ 2014-04-14T16:42:32+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620   and ( a1.facilitys like '%OTA_P_903%' )  and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.031001s ]
+
+[ 2014-04-14T16:42:33+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620   and ( a1.facilitys like '%OTA_P_903%' )  and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.031001s ]
+
+[ 2014-04-14T16:42:34+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620   and ( a1.facilitys like '%OTA_P_903%' )  and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.030001s ]
+
+[ 2014-04-14T16:42:35+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620   and ( a1.facilitys like '%OTA_P_903%' )  and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.032002s ]
+
+[ 2014-04-14T16:42:38+08:00 ] 127.0.0.1 /City/getSearchPageCity/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.005001s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: scenic_all C:\wamp\www\ht.lmz.com\lmz\Lib\Action\CityAction.class.php 第 76 行.
+SQL: select count(*) count from dede_addonarticle a1 left join dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) [ RunTime:0.032002s ]
+SQL: select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+					a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
+					a1.address,a2.title,a2.litpic,a2.description from dede_addonarticle a1 left join
+					dede_archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id where a1.typeid = 26620 and a2.typeid = 26620     and ( a2.poi like '%34343%' or a2.poi like '%5497231%' or a2.poi like '%5497251%' or a2.poi like '%5497241%' ) order by a1.price asc limit 0,10 [ RunTime:0.004000s ]
+
+[ 2014-04-14T16:42:51+08:00 ] 127.0.0.1 /Tool/getDate_one?start_name=2014-04-16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-04-14T16:55:15+08:00 ] 127.0.0.1 /Hong-Kong-city-guide-list/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: group C:\wamp\www\ht.lmz.com\lmz\Core\ThinkPHP\Lib\Core\App.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`picname`,`content`,`typename`,`typedir`,`keywords`,`seotitle`,`ranks`,`description`,`templist`,`weatherid`,`topid`,`reid` FROM `dede_arctype` WHERE ( typedir = 'hong-kong-city-guide-list' and ranks in (1,2,3) ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dede_guide` [ RunTime:0.004000s ]
+SQL: select count(*) count from dede_archives a left join dede_arctype t on t.id = a.typeid2 where a.typeid2 in(29244) and a.typeid2 != 0 and a.channel ='17' [ RunTime:0.908052s ]
+NOTIC: [8] Undefined index: page C:\wamp\www\ht.lmz.com\lmz\Lib\Action\GuideAction.class.php 第 139 行.
+SQL: select a.*,t.typename,t.typedir from dede_archives a left join dede_arctype t on t.id = a.typeid2 where a.typeid2 in(29244) and a.typeid2 != 0 and a.channel ='17' order by a.pubdate desc limit 0,10 [ RunTime:1.271073s ]
+
+[ 2014-04-14T16:59:15+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.6709623909555376
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.018001s ]
+
+[ 2014-04-14T16:59:16+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.7547533907927573
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T16:59:54+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.22545763943344355
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.020001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T17:00:35+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.5034486197400838
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.029002s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T17:00:35+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.7232301242183894
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T17:23:03+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.7815698410850018
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.025002s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.018001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T17:23:04+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.8118795219343156
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.018001s ]
+
+[ 2014-04-14T17:23:40+08:00 ] 127.0.0.1 /Continent/getAjaxContinent?id=2&rand=0.05204099742695689
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 2 and ranks = 2 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid != 2 and ranks = 2 )  [ RunTime:0.001000s ]
+
+[ 2014-04-14T17:23:40+08:00 ] 127.0.0.1 /Country/getAjaxcity?country_id=97&rand=0.9774052738212049
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.010000s ]
+SQL: SELECT `id`,`typename`,`typedir` FROM `dede_arctype` WHERE ( reid = 97 and ranks = 3 )  [ RunTime:0.001000s ]
+
