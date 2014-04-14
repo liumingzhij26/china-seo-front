@@ -5,12 +5,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
 RedirectMatch 301 ^/([\w\-]+)$ /$1/
-
-RewriteRule uploads/(.*).(php)$ – [F]  
-RewriteRule data/(.*).(php)$ – [F]  
-RewriteRule templets/(.*).(php)$ – [F]
-RewriteRule images/(.*).(php)$ – [F]
-RewriteRule include/ckeditor/plugins/(.*).(php)$ – [F]
+RewriteRule uploads/(.*).(php)$ – [F] 
 
 </IfModule>
 
