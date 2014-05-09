@@ -84,17 +84,7 @@
 	dump($_get_data_zh);
 	dump($_Location_data);
 	dump($_Hotels_data);
-	/*
-	$_get_data_zh['name_en'] = str_replace("-"," ",$_get_data_zh['name']);
-	
-	$_sql = "INSERT INTO `dede_arctype` VALUES ('{$_Location_data['id']}', '1', '/uploads/131223/1-1312231521355D.jpg', '{$_get_data_zh['name_en']}', '54154', '4', '50', '{$_Location_data['name']}', '{$_get_data_zh['name']}', '-1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', 'content/citypage', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', 'North-America', '', '0', '0', '', '', '')";
-	$_flag = $database->select("dede_arctype",array("id"),array("id"=>$_Location_data['id']));
-	if(empty($_flag)){
-		//$database->query($_sql);
-		echo $_sql;
-		echo "成功<br/>";		
-	}
-	*/
+
 	$database->query("ALTER TABLE `dede_arctiny` CHANGE `id` `id` INT( 8 ) UNSIGNED NOT NULL");
 	/*--------------------------为酒店的数据-Start-------------------------------*/
 	foreach($_Hotel as $k=>$v){
