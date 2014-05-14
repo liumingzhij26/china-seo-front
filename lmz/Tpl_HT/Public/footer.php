@@ -44,30 +44,45 @@ HotelClub隶属HotelClub Limited，是Orbitz Worldwide Inc'的一部份，由Hot
 
 
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"0","bdPos":"right","bdTop":"200"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-<!-- START OF SmartSource Data Collector TAG -->
-<!-- Copyright (c) 1996-2011 WebTrends Inc.  All rights reserved. -->
-<!-- Version: 9.3.0 -->
-<!-- Tag Builder Version: 3.1  -->
-<!-- Created: 2/24/2011 3:50:56 PM -->
-<!-- ----------------------------------------------------------------------------------- -->
-<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
-<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
-<!-- ----------------------------------------------------------------------------------- -->
-<script type="text/javascript">
-var gFpcDom = ".hotelclub.com";
-var gDomain = "ctix8.cheaptickets.com";
-var gDcsId = "dcscfchfzvz5bdrpz13vsgjna_9r8u";
-var gFpc = "WT_FPC";
-var gTrackEvents = true; // enables event tracking on all a, image map, form button, and enter key presses (that submit form)
-var gConvert = true;
-if ((typeof(gConvert)!="undefined")&&gConvert&&(document.cookie.indexOf(gFpc+"=")==-1)&&(document.cookie.indexOf("WTLOPTOUT=")==-1)){
-      document.write("<SCR"+"IPT TYPE='text/javascript' SRC='"+"http"+(window.location.protocol.indexOf('https:=')==0?'s':'')+"://"+gDomain+"/"+gDcsId+"/wtid.js"+"'><\/SCR"+"IPT>");
-     }
-</script>
-<script src="/common/webtrends.js" type="text/javascript"></script>
-<script type="text/javascript">
-  /* see wrapper.tag for call to wtInit() */
-  wtInit();
+<!-- START OF SmartSource Data Collector TAG v10.2.0 -->
+<!-- Copyright (c) 2012 Webtrends Inc.  All rights reserved. -->
+<script>
+// WebTrends SmartSource Data Collector Tag v10.2.0
+// Copyright (c) 2012 Webtrends Inc.  All rights reserved.
+// Tag Builder Version: 4.0.170.0
+// Created: 5/8/2012 4:28:58 PM
+window.webtrendsAsyncInit=function(){
+    var dcs=new Webtrends.dcs().init({
+        dcsid:"dcshdqkdg00000cpjhaecu2rz_3j2x"
+        ,domain:"statse.webtrendslive.com"
+        ,timezone:-6
+	,i18n: false
+	,navigationtag: "div,span"
+	,FPCConfig: {
+		enabled: true,
+		domain: fpcdom,
+	}
+        ,plugins:{
+			hm:{src:"//s.webtrends.com/js/webtrends.hm.js"}
+			,LinkTrack: { src: "scripts/linkTrack.js", DivList: ".*" }
+			,buttonClick:{ src:"scripts/buttonClick.js" }
+
+        }
+   	}).track({
+		// Everything here overrides plugins. 
+		filter: function(dcs, options) { },
+		transform: function(dcs, options) { },
+		finish: function(dcs, options) {
+			dcs.dcsCleanUp("DCSext.pos", dcs.DCSext['pos']);
+			dcs.dcsVar();
+		}
+	});
+};
+(function(){
+    var s=document.createElement("script"); s.async=true; s.src="__static__/js/webtrends.js";
+    var s2=document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s,s2);
+}());
+
 </script>
 <script type="text/javascript">
 var _gaq = _gaq || [];

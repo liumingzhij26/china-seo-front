@@ -45,6 +45,10 @@ class GuideAction extends BaseAction{
 			}
             $_data['explain'] = $this->_archives->getCityIndexAttribute($_data['list']['typeid2'],'g',1);
 			$_data['scene'] = $this->_archives->getCityIndexAttribute($_data['list']['typeid2'],'d',1);
+		}else{
+			header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码 
+			$this->display("Public:404"); 
+			exit;
 		}
 		$_data['headline_pubdate'] = $this->_guide->getGuideHeadlinePubdate($_data['list']['typeid2']);		
 		$_data['pre'] = $this->_guide->getGuidePageNext($_id,$_data['list']['typeid2'],'>');		

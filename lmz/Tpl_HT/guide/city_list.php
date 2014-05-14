@@ -173,7 +173,7 @@ $(function(){
 	$('.nav').find('a').click(function(){
 		var _this = $(this);		
 		guide_form.val(_this.attr('value'));		
-		$.post("/{$data.obj.typedir}-guide-list/",{"order":guide_form.val()},function(data){
+		$.post("__HT__/{$data.obj.typedir}-guide-list/",{"order":guide_form.val()},function(data){
 			if(data == 0){	
 				return;
 			}else{
@@ -191,7 +191,7 @@ $(function(){
 
 function getPage(order_val,page){
 	
-	$.post("/{$data.obj.typedir}-guide-list/",{"order":order_val,"page":page},function(data){
+	$.post("__HT__/{$data.obj.typedir}-guide-list/",{"order":order_val,"page":page},function(data){
 		if(data == 0){	
 			return;
 		}else{

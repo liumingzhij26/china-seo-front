@@ -17,12 +17,16 @@ class HAction extends BaseAction{
 	public function index(){
 		$_MODULE_NAME = $_GET['name'];
 		$cityName = $this->_arctype->getTypeIs($_MODULE_NAME);//验证这个action是否存在
-		if(empty($cityName)){	
-			$cityName = strtolower($_MODULE_NAME);
+		if(empty($cityName)){
+			$cityName = strtolower($_MODULE_NAME);			
 			if(preg_match('/^guide\-[\w-\-]+$/',$cityName)){
 				$_guide = explode("-",$cityName);
-				if($_guide[0] == 'guide' && preg_match('/^\d+$/',$_guide[1])){
+				if($_guide[0] == 'guide' && preg_match('/^\d+$/',$_guide[1])){					
 					R('/Guide/page',array(intval($_guide[1])));
+					exit;
+				}else{
+					header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码 
+					$this->display("Public:404"); 
 					exit;
 				}
 			}elseif(preg_match('/^[\w-\-]+\-guide$/',$cityName)){
@@ -39,7 +43,15 @@ class HAction extends BaseAction{
 							R('/Guide/city_index',array(strip_tags($cityName)));
 							exit;
 						}											
+					}else{
+						header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码 
+						$this->display("Public:404"); 
+						exit;
 					}
+				}else{
+					header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码 
+					$this->display("Public:404"); 
+					exit;
 				}		
 			}elseif(preg_match('/^[\w-\-]+\-guide\-list$/',$cityName)){
 				$_guide = explode("-guide-",$cityName);
@@ -60,7 +72,7 @@ class HAction extends BaseAction{
 				header("HTTP/1.0 404 Not Found");//使HTTP返回404状态码 
 				$this->display("Public:404"); 
                 exit;
-			}            
+			}     
 		}        
         $_data = $this->_arctype->getOne($cityName);
 		$_data_id = intval($_data['id']);

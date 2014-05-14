@@ -281,7 +281,7 @@
                     <div class="tab-content">
                       <div class="tab-pane active">
                         <ul class="hot_hotels">                           
-							<foreach name="citylist" item="val" key="key">	                       
+							<foreach name="citylist" item="val" key="key">                                
 	                            <if condition="($key%2 eq 1)"><li class="odd"><else /><li></if>
 	                            	<div class="thumbnail">
 	                                 <a href="{$val.linkurl}" target="_blank" ><img xsrc="__static__/images/nopic.jpg" src="{$val.litpic}" class="pic_load" value="{$val.aid}" alt="{$val.title}" width="127px" height="127px"></a>
@@ -311,7 +311,7 @@
 	                                    <div class="price_c">每间每晚&nbsp;&nbsp;<i class="price"><span class="price_data"><font class="price_type">￥</font>{$val.price}</span></i>起</div>
 	                                    <div class="check_btn"><a href="{$val.linkurl}" target="_blank" class="btn btn-purp">查&nbsp;&nbsp;看</a></div>
 	                                </div>
-	                            </li>								
+	                            </li>
 	                        </foreach>
                         </ul>
                       </div>

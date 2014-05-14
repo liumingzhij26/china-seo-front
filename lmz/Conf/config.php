@@ -49,8 +49,8 @@ return array(
 		'DB_PORT' => '3306',
 		'DB_PREFIX' => 'dede_',
 		'TMPL_PARSE_STRING'  =>array(
-				'__static__' => '/static', // 更改默认的__PUBLIC__ 替换规则			
-				'__HT__' => '/h', // 更改默认的__PUBLIC__ 替换规则			
+				'__static__' => '/static', // 更改默认的__PUBLIC__ 替换规则		
+				'__HT__' => '/h', // 更改默认的__PUBLIC__ 替换规则	
 		),	
 		'PAGE_SIZE' => 10,
 		'GET_SQL_CONDITION' => array("page","typeid","order"),

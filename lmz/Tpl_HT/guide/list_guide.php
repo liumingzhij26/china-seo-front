@@ -168,7 +168,7 @@ $(function(){
 	$('.nav').find('a').click(function(){
 		var _this = $(this);		
 		guide_form.val(_this.attr('value'));		
-		$.post("/list-guide/",{"order":guide_form.val()},function(data){
+		$.post("__HT__/list-guide/",{"order":guide_form.val()},function(data){
 			if(data == 0){	
 				return;
 			}else{
@@ -185,7 +185,7 @@ $(function(){
 
 
 function getPage(order_val,page){
-	$.post("/list-guide/",{"order":order_val,"page":page},function(data){
+	$.post("__HT__/list-guide/",{"order":order_val,"page":page},function(data){
 		if(data == 0){	
 			return;
 		}else{

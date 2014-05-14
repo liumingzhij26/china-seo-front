@@ -40,23 +40,21 @@
 	
 	$_city_list = $database->select("dede_arctype",array("*"),array("ranks"=>3));
 	
-	
 	$_vals = "";
 	$i=0;
 	foreach($_city_list as $v){	
 		echo $i."<br/>";
 		$_values = str_replace('-city','',$v['typedir']);
 		//ex_query($_values,'CNY');//CNY
-		ex_query($v['typedir'],'USD');//USD
+		ex_query($v['typedir'],'CNY');//USD
 		//$_get_data_zh = get_curl($v['typedir'],'zh_CN');//en_AU  zh_CN
 		$i++;
-		//$_vals .= "'{$v['typedir']}',";
 	}
-	//echo $_vals;
+    
 	function ex_query($_city_name = '',$_price_type = ''){
 	global $database;
 	
-	$_get_data_zh = get_curl($_city_name,'en_AU',$_price_type);//zh_CN  zh_CN
+	$_get_data_zh = get_curl($_city_name,'zh_CN',$_price_type);//zh_CN  zh_CN
 	if($_get_data_zh == null){
 		continue;
 	}
@@ -81,10 +79,11 @@
 	$_Hotels_data['href'] = $_Hotels->attr('href');
 	$_Hotels_data['count'] = $_Hotels->attr('count');
 	/*--------------------------为酒店列表的数据-End-------------------------------*/
-	dump($_get_data_zh);
+	echo "<pre>";
+    dump($_get_data_zh);
 	dump($_Location_data);
 	dump($_Hotels_data);
-
+    echo "</pre>";
 	$database->query("ALTER TABLE `dede_arctiny` CHANGE `id` `id` INT( 8 ) UNSIGNED NOT NULL");
 	/*--------------------------为酒店的数据-Start-------------------------------*/
 	foreach($_Hotel as $k=>$v){
@@ -102,7 +101,29 @@
 			$_data['TotalCostOfRooms'] = $_Hotel->eq($k)->find("TotalCostOfRooms")->html();
 			$_data['TotalCostOfRooms_currency'] = $_Hotel->eq($k)->find("TotalCostOfRooms")->attr("currency");
 			$_data['Rates_href'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->attr('href');
-			$_data['AverageNightlyRate'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->find('AverageNightlyRate')->html();
+			$_url = $_data['Rates_href'];
+            echo $_url."<br/>";
+            if(preg_match('/hotel\.chkin=.*?\&/',$_url,$arr)){
+                $_url = preg_replace('/(hotel\.chkin=.*?\&)/','',$_url);
+                $_url = preg_replace('/(hotel\.chkout=.*?\&)/','',$_url);
+                $_data['Rates_href'] = $_url;
+                echo "<pre>";
+                print_r($arr);
+                echo "</pre>";
+            }
+            if(preg_match('/checkin=.*?\&/',$_url,$arr)){
+                //$_url = preg_replace('/checkin=.*?\&/','',$_url);
+                //$_url = preg_replace('/checkout=.*?\&/','',$_url);
+                //$_data['Rates_href'] = $_url;                
+                //echo "<pre>";
+                //print_r($arr);
+                //echo "</pre>";
+            }
+            $_data['AverageNightlyRate'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->find('AverageNightlyRate')->html();
+            
+            if($_data['AverageNightlyRate'] <= 0){
+                $_data['AverageNightlyRate'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->find('TotalCost')->html();
+            }       
 			$_data['Rates_amount'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->find('PromotionalInfo:eq(1)')->attr('amount');
 			$_data['Rates_startDate'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->find('PromotionalInfo:eq(1)')->attr('startDate');
 			$_data['Rates_endDate'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->find('PromotionalInfo:eq(1)')->attr('endDate');
@@ -122,13 +143,10 @@
                        $_join = ','; 
                     }
 					$_data['Amenity'] .= $_Hotel->eq($k)->find("Content")->find('Amenities')->find("Amenity:eq({$am_k})")->attr('code').$_join;
-                }
-				//echo $_data['Amenity'];
-				//echo "<br/>";
+                }				
 			}
 			$_pic = '/static/images/nopic.jpg';
 			if($_data['thumbnail'] != null && $_data['thumbnail'] != ""){
-				//$_pic = getDownFile($_data['thumbnail'],$_data['Address_City']);
 				$_pic = $_data['thumbnail'];
 			}
 			$_data['time'] = time();
@@ -175,21 +193,25 @@
 			$_flag_2 = $database->select("dede_arctiny",array("id"),array("id"=>$_data['id']));
 			$_flag_3 = $database->select("dede_addonarticle",array("aid"),array("aid"=>$_data['id']));
 			if(empty($_flag_1) && empty($_flag_2) && empty($_flag_3)){
-				$database->query($dede_arctiny);
-				$database->query($dede_archives);
-				$database->query($dede_addonarticle);
-				echo $k.' '.$_data['id'];
-				echo '<br/>';
-				echo $dede_arctiny;
-				echo '<br/>';
-				echo $dede_archives;
-				echo '<br/>';
-				echo $dede_addonarticle;
-				echo "<hr/>";
+				//$database->query($dede_arctiny);
+				//$database->query($dede_archives);
+				//$database->query($dede_addonarticle);
+				//echo $k.' '.$_data['id'];
+				//echo '<br/>';
+				//echo $dede_arctiny;
+				//echo '<br/>';
+				//echo $dede_archives;
+				//echo '<br/>';
+				//echo $dede_addonarticle;
+				//echo "<hr/>";
 			}else{
-				$database->query("update dede_addonarticle set price_usd = '{$_data['AverageNightlyRate']}' where aid = {$_data['id']};");	
-				echo "update dede_addonarticle set price_usd = '{$_data['AverageNightlyRate']}' where aid = {$_data['id']};";				
+				$database->query("update dede_addonarticle set price = '{$_data['AverageNightlyRate']}',linkurl='{$_data['Rates_href']}' where aid = {$_data['id']};");	
+				echo "update dede_addonarticle set price = '{$_data['AverageNightlyRate']}',linkurl='{$_data['Rates_href']}' where aid = {$_data['id']};";
+                echo "<br/>";
+                echo $k.' '.$_data['id'];
+                echo "<br/><br/>";
 			}
+            echo "<hr/>";
 		}
 		
 	}
