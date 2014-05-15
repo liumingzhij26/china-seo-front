@@ -86,6 +86,68 @@ _en;
     return $_data;
 }
 
+function url_replace($_href){
+     
+    if(preg_match('/(room1\.adults)/',$_href,$arr)){
+        $_href = preg_replace('/(room1\.adults)/','adults',$_href);
+
+    }
+    
+    if(preg_match('/room1\.seniors=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(room1\.seniors=.*?&)/','',$_href);
+
+    }
+    
+    if(preg_match('/room1\.children=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(room1\.children=.*?&)/','',$_href);
+
+    }
+    
+    if(preg_match('/host=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(host=.*?&)/','',$_href);
+
+    }
+    
+    if(preg_match('/searchtype=keyword&/',$_href,$arr)){
+        $_href = preg_replace('/(searchtype=keyword&)/','',$_href);
+
+    }
+    
+    if(preg_match('/selectKey=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(selectKey=.*?&)/','',$_href);
+
+    }
+    
+    if(preg_match('/selectedprice=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(selectedprice=.*?&)/','',$_href);
+
+    }
+    
+    if(preg_match('/market=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(market=.*?&)/','',$_href);
+
+    }
+    
+    if(preg_match('/dc=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(dc=.*?&)/','',$_href);
+
+    }
+    
+    if(preg_match('/dp=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(dp=.*?&)/','',$_href);
+
+    }
+    
+    if(preg_match('/WT\.mc\_ev=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(WT\.mc\_ev=.*?&)/','',$_href);
+
+    }
+    if(preg_match('/WT\.mc\_id=.*?&/',$_href,$arr)){
+        $_href = preg_replace('/(WT\.mc\_id=.*?&)/','',$_href);
+    }
+    return $_href;
+}
+
 /**
  * 浏览器友好的变量输出
  * @param mixed $var 变量

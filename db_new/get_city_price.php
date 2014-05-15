@@ -102,7 +102,7 @@
 			$_data['TotalCostOfRooms_currency'] = $_Hotel->eq($k)->find("TotalCostOfRooms")->attr("currency");
 			$_data['Rates_href'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->attr('href');
 			$_url = $_data['Rates_href'];
-            echo $_url."<br/>";
+            echo $_url."<br/><br/>";
             if(preg_match('/hotel\.chkin=.*?\&/',$_url,$arr)){
                 $_url = preg_replace('/(hotel\.chkin=.*?\&)/','',$_url);
                 $_url = preg_replace('/(hotel\.chkout=.*?\&)/','',$_url);
@@ -111,14 +111,8 @@
                 print_r($arr);
                 echo "</pre>";
             }
-            if(preg_match('/checkin=.*?\&/',$_url,$arr)){
-                //$_url = preg_replace('/checkin=.*?\&/','',$_url);
-                //$_url = preg_replace('/checkout=.*?\&/','',$_url);
-                //$_data['Rates_href'] = $_url;                
-                //echo "<pre>";
-                //print_r($arr);
-                //echo "</pre>";
-            }
+            $_data['Rates_href'] = url_replace($_data['Rates_href']);
+            echo $_data['Rates_href']."<br/><br/>";
             $_data['AverageNightlyRate'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->find('AverageNightlyRate')->html();
             
             if($_data['AverageNightlyRate'] <= 0){
