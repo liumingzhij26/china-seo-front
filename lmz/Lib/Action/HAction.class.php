@@ -91,10 +91,13 @@ class HAction extends BaseAction{
 			$_hotcity = $this->_arctype->getCityHot($_data_id);//获得热门城市
 			$_citylist = R('City/getListCity',array($_hotcity[0]['id'],false));	//传入第一个城市的typeid，返回10个城市的列表数据
 			$_continentlist = R('Continent/getListContinent',array($_position['p_id']));	//传入当前国家所在大洲的ID，返回国家的列表数据
-			$this->assign('citylist',$_citylist);
+			$_CountryList = $this->_arctype->getCountryList($_data['topid']);//获得搜索城市列表	
+            $_city = $this->_arctype->where("reid = {$_data['id']}")->select();
+            $this->assign('citylist',$_citylist);
 			$this->assign('position',$_position);
 			$this->assign('continentlist',$_continentlist);
             $this->assign('hotcity',$_hotcity);
+            $this->assign('city',$_city);
 		}
 		if($_data['ranks'] == 3){//当是城市是，就判断一下
 			$cityName = $this->_arctype->getTypeIs($_MODULE_NAME);//验证这个action是否存在
