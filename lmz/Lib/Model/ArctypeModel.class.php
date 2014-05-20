@@ -311,7 +311,7 @@ class ArctypeModel extends Model {
 	public function getSearchListCity($_where = '',$_rmlimit = false,$_limit = 'limit 10',$_order = "order by a2.id desc"){
 		if($_rmlimit) $_limit = '';
 		$_DB_PREFIX = C('DB_PREFIX');//取得表前缀	
-		$_sql = "select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,
+		$_sql = "select a1.aid,a1.typeid,a1.body,a1.templet,a1.userip,a1.en_title,a2.checkin,a2.checkout,
 		a1.stars,a1.map_x,a1.map_y,a1.price,a1.linkurl,a1.grade,a1.numbers,a1.infos,a1.map_x,a1.map_y,
 		a1.address,a2.title,a2.litpic,a2.description from {$_DB_PREFIX}addonarticle a1 left join
 		{$_DB_PREFIX}archives a2 on a1.typeid=a2.typeid and a1.aid=a2.id {$_where} {$_order} {$_limit}";

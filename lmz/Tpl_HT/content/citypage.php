@@ -61,14 +61,14 @@
 					<div class="labelw">
 						<input type="text" name="start_date" class="start_date form-control" style="cursor: pointer;" datatype="/^[\d\-]+$/" nullmsg="*"  placeholder="入住日期" value="" readonly>       
 					</div>
-					<font class="msginfo">*</font>
+					<font class="msginfo"></font>
 				  </div>
 				  <div class="form-group">
 					<label for="inputPassword3" class="labell control-label">退房日期:</label>
 					<div class="labelw">
 						<input type="text" name="end_date" class="end_date form-control" style="cursor: pointer;" datatype="/^[\d\-]+$/" nullmsg="*" placeholder="退房日期" value="" readonly>                        
 					</div>
-					<font class="msginfo">*</font>
+					<font class="msginfo"></font>
 				  </div>                
 				  <div class="form-group groupperson">
 					<label for="inputPassword3" class="labell control-label">入住人员:</label>

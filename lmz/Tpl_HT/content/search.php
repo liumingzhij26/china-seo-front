@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><if condition="($data.typename eq '')">{$data.typename}酒店预订,{$data.typename}酒店推荐,{$data.typename}住宿攻略 - HotelClub<else />{$data.typename} - HotelClub</if></title>
-<meta name="keywords" content="<if condition="($data.typename eq '')">{$data.typename}酒店预订,{$data.typename}酒店推荐,{$data.typename}住宿攻略,HotelClub<else />{$data.typename}</if>"> 
-<meta name="description" content="<if condition="($data.typename eq '')">HotelClub拥有丰富的{$data.typename}酒店资源，为您出行提供优质的{$data.typename}酒店预订和{$data.typename}酒店推荐服务，为前往{$data.typename}的您提供详细的住宿攻略。在HotelClub,我们帮助您以优惠的价格预订性价比高的{$data.typename}酒店，2-7折在线预订，现在就来体验吧！<else />{$data.typename}</if>">
+<title>{$data.typename}酒店预订,{$data.typename}酒店推荐,{$data.typename}住宿攻略 - HotelClub</title>
+<meta name="keywords" content="{$data.typename}酒店预订,{$data.typename}酒店推荐,{$data.typename}住宿攻略,HotelClub"> 
+<meta name="description" content="HotelClub拥有丰富的{$data.typename}酒店资源，为您出行提供优质的{$data.typename}酒店预订和{$data.typename}酒店推荐服务，为前往{$data.typename}的您提供详细的住宿攻略。在HotelClub,我们帮助您以优惠的价格预订性价比高的{$data.typename}酒店，2-7折在线预订，现在就来体验吧！">
 <meta name="DCSext.seocntry" content="NC|{$data.id}|{$data.typedir}/"/>
 <include file="Public:header_style" />
 </head>
@@ -20,7 +20,7 @@
     	<div class="col-xs-4">
 				<div></div>
 				<div class="panel order panelsmall">
-				<h2>酒店预订</h2>
+				<h2>{$data.typename}酒店预订</h2>
 				<form class="form-horizontal" role="form" id="search_page">
 					<input type="hidden" name="p_keys_country" value="{$data.keys_country}" />
 					<input type="hidden" name="p_keys_city" value="{$data.keys_city}" />
@@ -46,7 +46,14 @@
 					<label for="inputPassword3" class="labell control-label">入住城市:</label>
 					<div class="labelw">
 						<select class="form-control" name="keys_city" datatype="*" nullmsg="*" errormsg="请选择城市">
-						  <option value="">请选择城市</option>						  
+                            <if condition="($data.typename eq '')">
+                            <option value="">请选择城市</option>                            
+                            <else />
+                                <option value="">请选择城市</option>
+                                <foreach name="city" item="val" key="key">
+                                <option value="{$val['id']}" <if condition="$val['id'] eq $data['id']">selected</if>>{$val['typename']}</option>
+                                </foreach>
+                            </if>
 						</select>                        
 					</div>
 					<font class="msginfo">*</font>
@@ -54,16 +61,16 @@
 				  <div class="form-group">
 					<label for="inputPassword3" class="labell control-label">入住日期:</label>
 					<div class="labelw">
-						<input type="text" name="start_date" class="start_date form-control" style="cursor: pointer;" datatype="/^[\d\-]+$/" nullmsg="*"  placeholder="入住日期" value="" readonly>       
+						<input type="text" name="start_date" class="start_date form-control" style="cursor: pointer;" datatype="/^[\d\-]+$/" nullmsg="*"  placeholder="入住日期" value="<if condition="($data.start_date neq '')">{$data.start_date}</if>" readonly>       
 					</div>
-					<font class="msginfo">*</font>
+					<font class="msginfo"></font>
 				  </div>
 				  <div class="form-group">
 					<label for="inputPassword3" class="labell control-label">退房日期:</label>
 					<div class="labelw">
-						<input type="text" name="end_date" class="end_date form-control" style="cursor: pointer;" datatype="/^[\d\-]+$/" nullmsg="*" placeholder="退房日期" value="" readonly>                        
+						<input type="text" name="end_date" class="end_date form-control" style="cursor: pointer;" datatype="/^[\d\-]+$/" nullmsg="*" placeholder="退房日期" value="<if condition="($data.end_date neq '')">{$data.end_date}</if>" readonly>                        
 					</div>
-					<font class="msginfo">*</font>
+					<font class="msginfo"></font>
 				  </div>                
 				  <div class="form-group groupperson">
 					<label for="inputPassword3" class="labell control-label">入住人员:</label>
@@ -258,17 +265,17 @@ $(function(){
 		forceParse: 0,
     	format: 'yyyy-mm-dd'
     });
-    // $(".end_date").datetimepicker({
-    	// language:  'zh-CN',
-        // todayBtn:  1,
-		// autoclose: 1,
-		// todayHighlight: 1,
-		// startDate: '{$date}',//当前时间开始
-		// startView: 2,
-		// minView: 2,
-		// forceParse: 0,
-    	// format: 'yyyy-mm-dd'
-    // });
+    $(".end_date").datetimepicker({
+    	language:  'zh-CN',
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startDate: '{$date}',//当前时间开始
+		startView: 2,
+		minView: 2,
+		forceParse: 0,
+    	format: 'yyyy-mm-dd'
+    });
     var _order = $("input[name='order']");
     var options = {
             currentPage: 1,
@@ -321,7 +328,9 @@ $(function(){
     	getPage($(this).attr("val"),1);
     	$('.pagination').bootstrapPaginator(options);
     });	
-	getAjaxCity({$data.keys_country});//加载国家
+    <if condition="($data.typename eq '')">
+        getAjaxCity({$data.keys_country});//加载国家
+    </if>
 });
 
 function getPage(order,page){

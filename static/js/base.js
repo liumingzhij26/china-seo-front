@@ -78,7 +78,9 @@ $(function(){
 		if(_city_name.val().length > 0){			
 			obj.cityname = _city_name.val();
 		}else{
-			obj.cityname = 0;
+            alert("请选择入住城市!");
+            obj.cityname = 0;
+            return false;
 		}
 		obj.cityname = encodeURIComponent(obj.cityname);
 		
