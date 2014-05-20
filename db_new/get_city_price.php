@@ -111,6 +111,19 @@
                 print_r($arr);
                 echo "</pre>";
             }
+            if(preg_match('/checkin=(.*?)\&/',$_url,$arr)){
+                $_checkin = $arr[1];
+                echo "<pre>";
+                print_r($arr);
+                echo "</pre>";
+            }
+            if(preg_match('/checkout=(.*?)\&/',$_url,$arr)){
+                $_checkout = $arr[1];
+                echo "<pre>";
+                print_r($arr);
+                echo "</pre>";
+            }
+            
             $_data['Rates_href'] = url_replace($_data['Rates_href']);
             echo $_data['Rates_href']."<br/><br/>";
             $_data['AverageNightlyRate'] = $_Hotel->eq($k)->find("Rates")->find('Rate')->find('AverageNightlyRate')->html();
@@ -173,7 +186,7 @@
 
 			$dede_arctiny = "INSERT INTO `dede_arctiny` VALUES ('{$_data['id']}', '{$_Location_data['id']}', '0', '0', '1', '{$_data['time']}', '{$_data['time']}', '1')";
 			
-			$dede_archives = "INSERT INTO `dede_archives` VALUES ('{$_data['id']}', '{$_Location_data['id']}', '0', '{$_data['time']}', 'p', '-1', '1', '0', '{$_data['click']}', '0', '{$_data['name']}', '', '', '管理员', '管理员', '{$_pic}', '{$_data['time']}', '{$_data['time']}', '1', '', '0', '0', '0', '0', '0', '0', '', '', '1', '0', '0', '2')";
+			$dede_archives = "INSERT INTO `dede_archives` VALUES ('{$_data['id']}', '{$_Location_data['id']}', '0', '{$_data['time']}', 'p', '-1', '1', '0', '{$_data['click']}', '0', '{$_data['name']}', '', '', '管理员', '管理员', '{$_pic}', '{$_data['time']}', '{$_data['time']}', '1', '', '0', '0', '0', '0', '0', '0', '', '', '1', '0', '0', '2','{{$_checkin}}','{$_checkout}')";
 			
 			if($_price_type == 'CNY'){
 				$dede_addonarticle = "INSERT INTO `dede_addonarticle` VALUES ('{$_data['id']}', '{$_Location_data['id']}', '{$_data['Description']}', '', '', '127.0.0.1', '', '{$_data['starRating']}', '{$_data['Longitude']}', '{$_data['Latitude']}', '{$_data['AverageNightlyRate']}', '{$_data['Rates_href']}', '{$_data['UserScore']}', '{$_data['NumberOfReviews']}', '{$_data['Address_Street1']}', '{$_data['infos']}', '1005','{$_data['Amenity']}','{$_data['chainCode']}','')";
@@ -192,16 +205,22 @@
 				//$database->query($dede_addonarticle);
 				//echo $k.' '.$_data['id'];
 				//echo '<br/>';
-				//echo $dede_arctiny;
-				//echo '<br/>';
+				echo $dede_arctiny;
+				echo '<br/>';
 				//echo $dede_archives;
 				//echo '<br/>';
 				//echo $dede_addonarticle;
 				//echo "<hr/>";
 			}else{
 				$database->query("update dede_addonarticle set price = '{$_data['AverageNightlyRate']}',linkurl='{$_data['Rates_href']}' where aid = {$_data['id']};");	
-				echo "update dede_addonarticle set price = '{$_data['AverageNightlyRate']}',linkurl='{$_data['Rates_href']}' where aid = {$_data['id']};";
+				echo "update dede_addonarticle set price = '{$_data['AverageNightlyRate']}',linkurl='{$_data['Rates_href']}' where aid = {$_data['id']};";                
                 echo "<br/>";
+                echo "<br/>";
+                echo "update dede_archives set checkin = '{$_checkin}',checkout='{$_checkout}' where id = {$_data['id']};";
+                $database->query("update dede_archives set checkin = '{$_checkin}',checkout='{$_checkout}' where id = {$_data['id']};");
+                echo "<br/>";
+                echo "<br/>";
+                
                 echo $k.' '.$_data['id'];
                 echo "<br/><br/>";
 			}

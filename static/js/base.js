@@ -69,7 +69,9 @@ $(function(){
 			}
 			obj.cityid = _city.val();
 		}else{
-			obj.cityid = 0;
+            alert("请选择城市!");
+            obj.cityid = 0;
+			return false;			
 		}		
 		if(!/^[\d]+$/.test(_stars.val())){
 			alert("请选择酒店星级!");
@@ -78,9 +80,7 @@ $(function(){
 		if(_city_name.val().length > 0){			
 			obj.cityname = _city_name.val();
 		}else{
-            alert("请选择入住城市!");
-            obj.cityname = 0;
-            return false;
+			obj.cityname = 0;
 		}
 		obj.cityname = encodeURIComponent(obj.cityname);
 		
