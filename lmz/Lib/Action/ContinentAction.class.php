@@ -33,6 +33,27 @@ class ContinentAction extends BaseAction{
         }        
 		return $_data;
 	}
+    
+    /**
+	 *
+	 * 说明：传入城市的Id
+	 * 返回：城市的酒店列表
+	 */
+	public function getContinentsList($_id = 0){
+		$_id = (int)$_id;
+        if(S('ContinentsList_'.$_id) == true){
+            $_data = S('ContinentsList_'.$_id);
+        }else{
+            $_DB_PREFIX = C('DB_PREFIX');//取得表前缀
+            $_data = $this->_arctype->where("reid = {$_id}")->field('id,typename,typedir')->select();
+            if(count($_data)>0){
+                S('ContinentsList_'.$_id,$_data);
+            }else{
+                return null;
+            }
+        }        
+		return $_data;
+	}
 	
 	public function getAjaxContinent(){
 		$_id = $_GET['id'];
